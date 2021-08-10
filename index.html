@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Task-Bar-Chart</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+
+    <script src="scripts/events.js" defer></script>
+    <script src="scripts/functions.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/setData.js" defer></script>
+    <script src="scripts/setTable.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Bar Chart</h1>
+    </header>
+
+    <main>
+
+        <article>
+
+            <label for="Data-Input">Data Input:</label>
+
+            <input name="Data-Input" id="Data-Input" type="file">
+
+        </article>
+
+        <article>
+
+            <label for="Data-Column">Data Column:</label>
+
+            <select class="Data-Settings" name="Data-Column" id="Data-Column">
+                <option value="Data-Column-Created-At">Created At</option>
+                <option value="Data-Column-Start-Date" selected>Start Date</option>
+            </select>
+
+        </article>
+
+        <article>
+
+            <label for="Data-Time-Gaps">Show Time Gaps:</label>
+
+            <select class="Data-Settings" name="Data-Time-Gaps" id="Data-Time-Gaps">
+                <option value="Data-Time-Gaps-True" selected>True</option>
+                <option value="Data-Time-Gaps-False">False</option>
+            </select>
+
+        </article>
+
+        <article>
+
+            <label for="Data-Time-Span">Time Span:</label>
+
+            <select class="Data-Settings" name="Data-Time-Span" id="Data-Time-Span">
+                <option value="Data-Time-Span-Days" selected>Days</option>
+                <option value="Data-Time-Span-Weeks">Weeks</option>
+                <option value="Data-Time-Span-Months">Months</option>
+            </select>
+
+        </article>
+
+        <article>
+
+            <label for="Chart-Bar-Color">Bar Color:</label>
+
+            <select class="Chart-Settings" name="Chart-Bar-Color" id="Chart-Bar-Color">
+                <option value="Chart-Bar-Color-Green">Green</option>
+                <option value="Chart-Bar-Color-Blue">Blue</option>
+                <option value="Chart-Bar-Color-Pink" selected>Pink</option>
+            </select>
+
+        </article>
+
+        <article>
+
+            <!-- The Bar-Chart will be built in this div id="Bar-Chart" -->
+
+            <div id="Bar-Chart">...</div>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <P>Bar Chart</P>
+    </footer>
+
+</body>
+
+</html>

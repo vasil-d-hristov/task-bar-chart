@@ -1,0 +1,50 @@
+/* set global font */
+* {
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+/* make header and footer texts appear centered */
+header,
+footer {
+    text-align: center;
+}
+
+/* set space-gap between the articles */
+article {
+    padding: 0.5em;
+}
+
+/* add borders, their color is dynamic; set the position of the elements */
+table,
+div {
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+/* set the position of the elements */
+tr,
+div {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/* add scrollbar when the computed rows exceed the div id="Bar-Chart" area */
+#Bar-Chart {
+    overflow-x: auto;
+    max-width: 60%;
+}
+
+/* make the bar-columns narrower */
+.bar {
+    width: 1em;
+}
+
+/* make the bar-names appear vertically (if needed) */
+/*
+tfoot > tr > td {
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+*/

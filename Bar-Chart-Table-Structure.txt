@@ -1,0 +1,28 @@
+<table style="tableStyle">
+    <caption style="captionStyle">Table</caption>
+    <thead>
+        <tr>
+            <td>maxValue</td>
+            <td>barValue</td>
+            <td>barValue</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="maxHeight">0</td>
+            <td>
+                <div class="bar" style="barHeight; barStyle;"></div>
+            </td>
+            <td>
+                <div class="bar" style="barHeight; barStyle;"></div>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td>barName</td>
+            <td>barName</td>
+        </tr>
+    </tfoot>
+</table>
